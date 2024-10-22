@@ -1,0 +1,48 @@
+/* Pardon the wonky CSS, it's been a minute */
+body {
+    background-color: rgb(15, 36, 21);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: biz udmincho;
+}
+.big-box {
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    width: 80%;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+}
+h1 {
+    font-size: 5rem;
+}
+section {
+    margin: 70px;
+}
+h2{
+    font-size: 3rem;
+}
+.cage {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    margin: 0px;
+}
+ul {
+    list-style-type: none;
+    display: inline
+}
+li {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+footer{
+    color: aliceblue;
+    margin: 20px;
+}
